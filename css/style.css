@@ -199,7 +199,7 @@ p{
     font-size: 0.7rem;
     }
 .begin{
-  font-size: 0.8rem;
+  font-size: 1rem;
 
 }
 .logo_for_all{
@@ -439,5 +439,8 @@ p{
         height: 25vh;
         padding-bottom: 2%;
         padding-left: 40%;
+      }
+      li{
+        font-size:1rem;
       }
 }
