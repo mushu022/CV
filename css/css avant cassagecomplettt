@@ -1,0 +1,108 @@
+
+
+
+
+
+
+.picture_me{
+  width: 40vw;
+  height: 50vh;
+  border: 2px solid black;
+  box-shadow: 2px 2px  rgb(146, 197, 245);
+  
+}
+
+.container_info--CV{
+  width: 40vw;
+  height: 80vh;
+  border: 2px solid black;
+  margin: 2%;
+  padding: 2%;
+}
+
+
+.container_info--pre{
+  width: 80vh;
+  height: 47vh;
+  border: 2px solid black;
+  margin: 2%;
+  padding: 2%;
+}
+
+@media screen and (min-width: 1200px){
+  .banner{
+    position: relative;
+  }
+  
+  .name_cv{
+    position: absolute;
+    right: 65vh;
+    top: 30vh;
+  }
+  
+.sous_cv{
+  font-size: 3.5rem;
+}
+
+.info_bar{
+  text-align: center;
+  padding: 2%;
+  
+  font-size: 2rem;
+  height: 10vh;
+  width: auto;
+  background-color: #20539e;
+  color: white;
+}
+
+
+.container_info{
+  width: auto;
+  height: 120vh;
+  
+}
+
+.container_info--picture{
+  width: 15vw;
+  height: 48vh;
+  margin: 2%;
+  
+}
+
+.picture_me{
+  width: 100%;
+  border-radius: 2px;
+  margin-top: 0.5em;
+}
+
+.container_info--CV{
+  width: 100vw;
+height: 50vh;
+}
+
+
+.container_info-me{
+  width: 33.3333333333%;
+  margin-left: auto;
+  left: auto;
+  right: auto;
+}
+
+.container_logos{
+  width: 33.3333333333%;
+  margin-left: auto;
+  left: auto;
+  right: auto;
+}
+
+.licorne{
+  width: 33.3333333333%;
+  margin-left: auto;
+  left: auto;
+  right: auto;
+}
+}
+
+a {
+    text-decoration: none;
+}
