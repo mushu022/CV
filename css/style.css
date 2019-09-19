@@ -135,7 +135,7 @@ padding-left: 7%;
     }
   .container_info--picture_detail{
     width: 40vw;
-    height: 42vh;
+    height: 50vh;
     border: 1px 1px black;
     margin-right: 6.2%;
     border-radius: 5%;
@@ -215,11 +215,35 @@ p{
   transition-property: height;
   transition-duration: 0.5s;
 }
+.logo_all_correct {
+  height: 8vh;
+  width: 32vw;
+  transition-property: height;
+  transition-duration: 0.5s;
+}
+.logo_all_fr {
+  height: 9.5vh;
+  width: 18vw;
+  transition-property: height;
+  transition-duration: 0.5s;
+}
 
 .logo_all:hover {
 
-  height: 10vh;
+  height: 12vh;
 }
+
+.logo_all_fr:hover {
+
+  height: 12vh;
+}
+
+
+.logo_all_correct:hover {
+
+  height: 12vh;
+}
+
 
 /* Version GROS */
 
@@ -415,12 +439,26 @@ p{
         }
         .logo_all {
         height: 10vh;
-        width: 4vw;
+        width: 5vw;
         }
+        .logo_all_correct {
+          height: 11vh;
+          width: 15vw;
+          }
+          .logo_all_correct:hover {
+            height: 13vh;
+            }
+          .logo_all_fr {
+            height: 11.5vh;
+            width: 7.5vw;
+            }
 
         .logo_all:hover {
         height: 13vh;
         }
+        .logo_all_fr:hover {
+          height: 14vh;
+          }
         .contact_logo{
           width: 12vw;
           height: 17vh;
